@@ -13,6 +13,7 @@ class SchoolTableSeeder extends Seeder
     public function run()
     {
         // remove any data from the table first
+
         School::truncate();
 
         // create 5 school objects
