@@ -2,3 +2,46 @@
 {
     padding-top: 120px;
 }
+
+.heading
+{
+    padding-top: 100px;
+}
+
+
+/*
+        Added by stephanj for school table
+*/
+table {
+    max-width: 70%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+/*
+        Added by stephanj for school table
+*/
+.table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+/*
+        Added by stephanj for school table heading
+*/
+.table th {
+    padding: 8px;
+    line-height: 20px;
+    text-align: center;
+}
+
+
+/*
+        Added by stephanj for school table heading
+*/
+.tablebackground {
+    background-color: black;
+    color: white;
+}
