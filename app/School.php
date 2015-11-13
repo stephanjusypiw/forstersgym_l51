@@ -12,4 +12,16 @@ class School extends Model
      * @var string
      */
     protected $table = 'schools';
+
+
+    /**
+     * A School has many students
+     * The name of the function is the SAME name as the
+     * table
+     */
+
+    public function students()
+    {
+        return $this->hasMany('App\Student');
+    }
 }
