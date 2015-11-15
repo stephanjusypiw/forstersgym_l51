@@ -34,7 +34,12 @@ class SchoolController extends Controller
      */
     public function show($id)
     {
-        //
+        // use the Find class to get the school object with id.
+
+        // get school object
+        $schoolobj = School::find($id);
+        // call view passing school object
+        return view('students.studentshome', ['schoolobj' => $schoolobj ]);
     }
 
 

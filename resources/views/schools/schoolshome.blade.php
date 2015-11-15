@@ -21,7 +21,7 @@
                             <td>{{ $school->id }}</td>
                             <td>{{ $school->schoolname }}</td>
                             <td><a class="btn btn-success btn-sm"
-                                   href="{{ URL::to('schools/' . $school->id) }}">Show Students</a>
+                                   href="{{ URL::to('school/' . $school->id) }}">Show Students</a>
                             </td>
                         </tr>
                     @endforeach
